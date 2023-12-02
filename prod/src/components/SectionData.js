@@ -1,3 +1,4 @@
+import * as React from "react";
 import "./SectionStyles.css";
 import { Component } from "react";
 

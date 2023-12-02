@@ -1,3 +1,4 @@
+import * as React from "react";
 import "./TripStyles.css";
 import TripData from "./TripData";
 

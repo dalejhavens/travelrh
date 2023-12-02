@@ -1,3 +1,4 @@
+import * as React from "react";
 import SectionData from "./SectionData";
 import "./SectionStyles.css";
 
