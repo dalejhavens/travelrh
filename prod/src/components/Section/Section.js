@@ -4,6 +4,7 @@ import "./SectionStyles.css";
 
 const Section = () => {
   return (
+    <div className="container">
     <div className="section">
       <h1>Ready to make your travel fantasy a reality?</h1>
       <p className="intro-text">
@@ -58,6 +59,7 @@ const Section = () => {
         btn="About"
         url="/about"
       />
+    </div>
     </div>
   );
 };
