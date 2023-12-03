@@ -5,13 +5,8 @@ import TripData from "./TripData";
 function Trip() {
   return (
     <div className="trip">
-      <h1>Memorable Trips</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis
-        leo vel fringilla est ullamcorper eget nulla. Est ullamcorper eget nulla
-        facilisi.
-      </p>
+      <h1>Need Inspiration?</h1>
+      <p>Just a glimpse of what’s possible - your customized journey awaits!</p>
       <div className="tripcard">
         <TripData
           image="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

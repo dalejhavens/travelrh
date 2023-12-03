@@ -20,6 +20,10 @@ img {
   object-fit: cover;
 }
 
+.show {
+  margin-top: 50px;
+}
+
 .hero-text {
   position: absolute;
   top: 50%;
@@ -30,8 +34,9 @@ img {
 
 .hero-text h1 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
   background: #fff;
+  font-family: 'Playfair Display', serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

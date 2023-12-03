@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./SectionStyles.css";
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 class SectionData extends Component {
   render() {
@@ -9,10 +10,12 @@ class SectionData extends Component {
         <div className="desc-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>
+          <Link to={this.props.url}>
+            <button className="button">{this.props.btn}</button>
+          </Link>
         </div>
         <div className="image">
           <img alt="img" src={this.props.img1} />
-          <img alt="img" src={this.props.img2} />
         </div>
       </div>
     );
