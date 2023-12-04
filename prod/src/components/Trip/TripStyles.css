@@ -10,6 +10,11 @@
     font-family: 'Playfair Display', serif;
 }
 
+.trip p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
 .tripcard {
     margin-top: 3rem;
     display: flex;
@@ -23,7 +28,7 @@
     border-radius: 7px;
     cursor: pointer;
     padding: 1rem .8rem;
-    background-color: #dbcec7;
+    background-color: #f6eee9;
 }
 
 .t-image {

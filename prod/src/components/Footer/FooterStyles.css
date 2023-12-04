@@ -1,7 +1,7 @@
 .footer {
     padding: 4rem 6rem;
     background-color: #000;
-    color: #fff;
+    color: #f6eee9;
 }
 
 .top{
@@ -17,13 +17,13 @@
 }
 
 .top i{
-    color: #fff;
+    color: #f6eee9;
     font-size: 2rem;
     margin-left: 1rem;
 }
 
 .top i:hover {
-    color: #01959a
+    color: #f6eee9
 }
 
 .bottom {
@@ -47,7 +47,7 @@
 
 .bottom a {
     text-decoration: none;
-    color: #fafafa;
+    color: #f6eee9;
     padding-bottom: 4rem;
     font-size: 1.1rem;
 }
