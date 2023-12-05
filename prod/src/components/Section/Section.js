@@ -1,6 +1,7 @@
 import * as React from "react";
 import SectionData from "./SectionData";
 import "./SectionStyles.css";
+import Divider from "../Divider/Divider";
 
 const Section = () => {
   return (
@@ -36,6 +37,10 @@ const Section = () => {
             </b>
           </p>
         </div>
+
+        <Divider />
+
+        <div className="padding-div"></div>
 
         <SectionData
           className="first-desc"
