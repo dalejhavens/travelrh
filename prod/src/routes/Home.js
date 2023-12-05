@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Section from "../components/Section/Section";
 import Trip from "../components/Trip/Trip";
 import Partners from "../components/Partners/Partners";
+import Divider from "../components/Divider/Divider";
 
 function Home() {
   return (
@@ -20,7 +21,9 @@ function Home() {
         btnClass="show"
       />
       <Section />
+      <Divider />
       <Trip />
+      <Divider />
       <Partners />
       <Footer />
     </>
