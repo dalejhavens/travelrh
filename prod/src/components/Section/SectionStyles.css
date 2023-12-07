@@ -11,6 +11,7 @@
 
 .intro-section {
   padding-bottom: 29px;
+  background-color: #fff;
 }
 
 .intro-text {
@@ -29,6 +30,7 @@
 
 .padding-div {
   padding-top: 29px;
+  margin-bottom: 0;
 }
 
 .first-desc-reverse {
@@ -48,6 +50,13 @@
 .desc-text h2 {
   padding-bottom: 1rem;
   font-family: "Playfair Display", serif;
+}
+
+.emphasize {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .image {

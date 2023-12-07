@@ -1,7 +1,7 @@
 import * as React from "react";
-import SectionData from "./SectionData";
 import "./SectionStyles.css";
 import Divider from "../Divider/Divider";
+import { Link } from "react-router-dom";
 
 const Section = () => {
   return (
@@ -30,9 +30,10 @@ const Section = () => {
             to elevate your travel experience beyond expectations.
           </p>
           <p className="intro-text">
-            <b><em>
-              Explore, dream, and when the time is right, let's embark on
-              creating your ideal voyage together.
+            <b>
+              <em>
+                Explore, dream, and when the time is right, let's embark on
+                creating your ideal voyage together.
               </em>
             </b>
           </p>
@@ -42,32 +43,64 @@ const Section = () => {
 
         <div className="padding-div"></div>
 
-        <SectionData
-          className="first-desc"
-          heading="Tailored services, unlimited possibilities"
-          text="From once in a lifetime adventures to quick getaways and everything in between - consider it booked"
-          img1="https://images.unsplash.com/photo-1569530593440-e48dc137f7d0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          btn="Services"
-          url="/services"
-        />
+        <div className="first-desc">
+          <div className="desc-text">
+            <h2>Tailored services, <span className="emphasize">unlimited</span> possibilities</h2>
+            <p>
+              From once in a lifetime adventures to quick getaways and
+              everything in between - consider it booked
+            </p>
+            <Link to="/services">
+              <button className="button">Services</button>
+            </Link>
+          </div>
+          <div className="image">
+            <img
+              alt="img"
+              src="https://images.unsplash.com/photo-1569530593440-e48dc137f7d0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+          </div>
+        </div>
 
-        <SectionData
-          className="first-desc-reverse"
-          heading="From hidden gems to iconic landmarks, let’s explore them all"
-          text="Bustling metros or tropical havens - our knowledge goes around the globe"
-          img1="https://images.unsplash.com/photo-1528114039593-4366cc08227d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          btn="Destinations"
-          url="/destinations"
-        />
+        <div className="first-desc-reverse">
+          <div className="desc-text">
+            <h2>
+              From hidden gems to <span className="emphasize">iconic</span> landmarks, let's explore them all
+            </h2>
+            <p>
+              Bustling metros or tropical havens - our knowledge goes
+              around the globe
+            </p>
+            <Link to="/destinations">
+              <button className="button">Destinations</button>
+            </Link>
+          </div>
+          <div className="image">
+            <img
+              alt="img"
+              src="https://images.unsplash.com/photo-1528114039593-4366cc08227d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+          </div>
+        </div>
 
-        <SectionData
-          className="first-desc"
-          heading="VIP perks, personalized for you"
-          text="From globally acclaimed luxury labels to independently owned boutiques – all included, no extra cost"
-          img1="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          btn="About"
-          url="/about"
-        />
+        <div className="first-desc">
+          <div className="desc-text">
+            <h2>VIP perks, <span className="emphasize">personalized</span> for you</h2>
+            <p>
+              From globally acclaimed luxury labels to independently owned
+              boutiques - all included, no extra cost
+            </p>
+            <Link to="/about">
+              <button className="button">About</button>
+            </Link>
+          </div>
+          <div className="image">
+            <img
+              alt="img"
+              src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
