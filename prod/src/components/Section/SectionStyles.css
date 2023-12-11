@@ -11,7 +11,7 @@
 
 .intro-section {
   padding-bottom: 29px;
-  background-color: #fff;
+  background-color: #dbcec7;
 }
 
 .intro-text {
@@ -20,6 +20,7 @@
   margin: 0 20%;
   font-weight: 300;
   line-height: 1.5;
+  text-align: left;
 }
 
 .first-desc {
