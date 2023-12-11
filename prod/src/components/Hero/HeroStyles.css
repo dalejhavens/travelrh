@@ -20,6 +20,10 @@ img {
   object-fit: cover;
 }
 
+.show {
+  margin-top: 50px;
+}
+
 .hero-text {
   position: absolute;
   top: 50%;
@@ -30,8 +34,9 @@ img {
 
 .hero-text h1 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
   background: #fff;
+  font-family: 'Playfair Display', serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -44,13 +49,13 @@ img {
 
 .hero-text .show {
   text-decoration: none;
-  background-color: #fff;
+  background-color: #f6eee9;
   padding: 1rem 2rem;
   border-radius: 6px;
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #222;
+  color: #2a2a2a;
 }
 
 .hero-text .hide {
