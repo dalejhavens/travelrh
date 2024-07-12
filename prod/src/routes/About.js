@@ -1,8 +1,8 @@
 import * as React from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
-import AboutUs from "../components/AboutUs";
+import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
+import Footer from "../components/Footer/Footer";
+import AboutUs from "../components/About/AboutUs";
 
 function About() {
   return (

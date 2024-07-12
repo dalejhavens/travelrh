@@ -1,9 +1,9 @@
 import * as React from "react";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
+import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
 import ContactImg from "../assets/ContactImg.jpg";
-import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer/Footer";
+import ContactForm from "../components/Contact/ContactForm";
 
 function Contact() {
   return (

@@ -12,10 +12,16 @@ export const MenuItems = [
         icon : "fa-solid fa-address-card"
     },
     {
-        title : "Service",
-        url : "/service",
+        title : "Services",
+        url : "/services",
         cName : "nav-links",
         icon : "fa-solid fa-briefcase"
+    },
+    {
+        title : "Destinations",
+        url : "/destinations",
+        cName : "nav-links",
+        icon : "fa-solid fa-globe"
     },
     {
         title : "Contact",
